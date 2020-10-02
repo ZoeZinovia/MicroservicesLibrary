@@ -24,3 +24,20 @@ app.listen(8888, function(err){
 });
 
 //-----Orders Functionality-----//
+
+//Root Page//
+
+app.get("/", function(req, res){
+    res.send("This is the orders root page");
+})
+
+//Create Order//
+
+app.post("/order", function(req, res){
+    var newOrder = {
+        customerID:,
+        bookID:,
+        orderDate:, 
+        deliveryDate
+    }
+})

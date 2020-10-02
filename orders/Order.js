@@ -11,7 +11,7 @@ module.exports = mongoose.model("Order", {
         type: mongoose.SchemaTypes.ObjectId,
         required: true
     },
-    OrderDate: {
+    orderDate: {
         type: Date,
         required: true
     },
